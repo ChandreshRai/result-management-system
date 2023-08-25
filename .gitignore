@@ -1,0 +1,15 @@
+# Ignore build artifacts
+dist/
+build/
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore configuration files with sensitive data
+config.ini
+secrets.json
+
+# Ignore directories containing user-specific settings
+.vscode/
+.idea/
